@@ -1,0 +1,17 @@
+[entry]
+
+X11.64="res://target/release/libandromeda-godot.so"
+OSX.64="res://target/release/libandromeda-godot.dylib"
+Windows.64="res://target/release/andromeda-godot.dll"
+
+[dependencies]
+
+X11.64=[  ]
+OSX.64=[  ]
+
+[general]
+
+singleton=false
+load_once=true
+symbol_prefix="godot_"
+reloadable=true

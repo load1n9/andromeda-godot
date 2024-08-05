@@ -1,0 +1,13 @@
+[package]
+name = "andromeda-godot"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+andromeda-core = { git = "https://github.com/tryandromeda/andromeda" }
+gdnative = "0.11.0"
+nova_vm = { git = "https://github.com/trynova/nova", rev = "679a0e1bb0b5601936ab5885df154d9c536650be", features = ["typescript"] }
+tokio = { version = "1.39.0", features = ["full"]}
