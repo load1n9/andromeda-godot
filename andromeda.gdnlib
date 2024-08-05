@@ -1,8 +1,8 @@
 [entry]
 
-X11.64="res://target/release/libandromeda-godot.so"
-OSX.64="res://target/release/libandromeda-godot.dylib"
-Windows.64="res://target/release/andromeda-godot.dll"
+X11.64="res://target/release/libandromeda_godot.so"
+OSX.64="res://target/release/libandromeda_godot.dylib"
+Windows.64="res://target/release/andromeda_godot.dll"
 
 [dependencies]
 
